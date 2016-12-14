@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA3Sample2", "CA3Sample2\CA3Sample2.csproj", "{3115E81F-3054-4B6A-9690-9D06D4330E15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CA3Sample2.Tests", "CA3Sample2.Tests\CA3Sample2.Tests.csproj", "{BDD73920-80B5-491C-A8B2-7733E75C6659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3115E81F-3054-4B6A-9690-9D06D4330E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3115E81F-3054-4B6A-9690-9D06D4330E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3115E81F-3054-4B6A-9690-9D06D4330E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3115E81F-3054-4B6A-9690-9D06D4330E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD73920-80B5-491C-A8B2-7733E75C6659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD73920-80B5-491C-A8B2-7733E75C6659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD73920-80B5-491C-A8B2-7733E75C6659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD73920-80B5-491C-A8B2-7733E75C6659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
