@@ -1,0 +1,39 @@
+﻿@model CAExamples.Models.AzureRedundency
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>AzureRedundency</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Size)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Size)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Redundancy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Redundancy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.getCost)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.getCost)
+        </dd>
+
+    </dl>
+</div>
+
