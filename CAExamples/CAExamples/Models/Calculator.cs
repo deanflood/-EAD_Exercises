@@ -15,15 +15,19 @@ namespace CAExamples.Models
     }
     public class Calculator
     {
+
         public double Input1 { get; set; }
         public double Input2 { get; set; }
-        public Operator Operator { get; set; }
+
+        public static string[] OpArray = { "ADD", "SUBTRACT" };
+
+        public string Operator { get; set; }
 
         public double Calculate
         {
             get
             {
-                if(Operator == Operator.ADD)
+                if(Operator == OpArray[0])
                 {
                     return Input1 + Input2;
                 }
